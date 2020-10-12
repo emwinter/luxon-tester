@@ -2,6 +2,7 @@ import React from 'react';
 import { DateTime } from 'luxon';
 import logo from './logo.svg';
 import './App.css';
+import LuxonUsage from './LuxonUsage';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           Learn React
         </a>
         <p>{DateTime.local().toString()}</p>
+        <LuxonUsage />
       </header>
     </div>
   );
